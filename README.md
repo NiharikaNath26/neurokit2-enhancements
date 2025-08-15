@@ -5,7 +5,7 @@ This repository documents enhancements made to the [NeuroKit2](https://github.co
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 **Original Repository**: [neuropsychology/NeuroKit](https://github.com/neuropsychology/NeuroKit)  
 **Language**: Python  
@@ -14,27 +14,27 @@ This repository documents enhancements made to the [NeuroKit2](https://github.co
 
 ---
 
-## ✅ Enhancements Implemented
+##  Enhancements Implemented
 
-### 1. 🧵 Asynchronous Signal Processing
+### 1.  Asynchronous Signal Processing
 - Converted `bio_process()` and related signal functions to support `async`/`await`.
 - Enabled non-blocking, real-time processing for streaming use cases.
 - Backward-compatible with existing synchronous workflows.
 
-### 2. 🖥️ Command-Line Interface (CLI)
+### 2.  Command-Line Interface (CLI)
 - Added a `cli.py` module using `argparse`.
 - Enables users to process signals via terminal with commands like:
   ```bash
   python cli.py --input data.csv --output results.csv --signals ecg eda
   ```
 
-### 3. 🔁 Shared Signal Utilities Refactor
+### 3.  Shared Signal Utilities Refactor
 - Extracted common functions (e.g., normalize, resample) into a shared module.
 - Reduced code duplication and improved maintainability across signal types.
 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```
 .
@@ -54,7 +54,7 @@ This repository documents enhancements made to the [NeuroKit2](https://github.co
 
 ---
 
-## 🧪 Testing & Quality Assurance
+##  Testing & Quality Assurance
 
 - Framework: `pytest` with `pytest-cov` and `pytest-asyncio`
 - Test Coverage: >90% for new code
@@ -63,7 +63,7 @@ This repository documents enhancements made to the [NeuroKit2](https://github.co
 
 ---
 
-## 📊 Reports
+##  Reports
 
 | Report Type        | File |
 |--------------------|------|
@@ -76,7 +76,7 @@ This repository documents enhancements made to the [NeuroKit2](https://github.co
 
 ---
 
-## 📌 How to Use
+##  How to Use
 
 Install dependencies:
 
@@ -98,6 +98,6 @@ pytest --cov=shared tests/
 
 ---
 
-## 📫 Contact
+##  Contact
 
 Created as part of Turing onboarding. Maintained by [Your Name / Email Here].
